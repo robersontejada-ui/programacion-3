@@ -1,0 +1,101 @@
+# Tarea Excepciones, Hilos y Archivos
+
+## Datos del estudiante
+
+**Nombre:** Robertson Tejada
+
+## Introducción
+
+En esta tarea se desarrollaron cinco programas en Java con el objetivo de poner en práctica los temas trabajados en clase relacionados con hilos, manejo de excepciones y manejo de archivos.
+
+Cada ejercicio fue realizado de manera independiente para comprender mejor el funcionamiento de cada tema y su aplicación en situaciones prácticas.
+
+---
+
+## Ejercicio 1 - Simulador de Descargas
+
+En este ejercicio se simula la descarga de tres archivos al mismo tiempo utilizando hilos. Cada archivo se ejecuta en un hilo diferente y muestra su progreso desde 0% hasta 100% hasta completar la descarga.
+
+Conceptos utilizados:
+
+* Herencia de la clase Thread.
+* Método start().
+* Método sleep().
+* Ejecución concurrente de hilos.
+
+---
+
+## Ejercicio 2 - Carrera de Corredores
+
+Este programa simula una carrera entre cuatro corredores. Cada corredor avanza desde el metro 1 hasta el metro 10 utilizando un hilo independiente.
+
+Al finalizar la carrera se muestra cuál corredor llegó primero a la meta y también se visualiza el estado inicial y final de los hilos.
+
+Conceptos utilizados:
+
+* Hilos.
+* Método sleep().
+* Método getState().
+* Sincronización básica para determinar el ganador.
+
+---
+
+## Ejercicio 3 - Validador de Edad
+
+Este ejercicio solicita una edad al usuario y verifica si cumple con la mayoría de edad.
+
+Si la edad es menor de 18 años se lanza una excepción personalizada llamada EdadInvalidaException y se muestra un mensaje de error adecuado.
+
+Conceptos utilizados:
+
+* Excepciones personalizadas.
+* throw.
+* throws.
+* try-catch.
+* getMessage().
+
+---
+
+## Ejercicio 4 - Calculadora Segura
+
+Se desarrolló una calculadora básica que permite sumar, restar, multiplicar y dividir.
+
+Además, el programa controla errores comunes como la división entre cero y la entrada de datos incorrectos por parte del usuario.
+
+Conceptos utilizados:
+
+* try-catch-finally.
+* ArithmeticException.
+* InputMismatchException.
+* Manejo de errores.
+
+---
+
+## Ejercicio 5 - Registro de Actividades
+
+Este programa permite guardar actividades en un archivo de texto y posteriormente mostrarlas en pantalla.
+
+Las actividades se almacenan en el archivo actividades.txt sin eliminar los registros anteriores.
+
+Conceptos utilizados:
+
+* FileWriter.
+* FileReader.
+* BufferedReader.
+* Lectura y escritura de archivos.
+* Manejo de excepciones.
+
+---
+
+## Cómo ejecutar los programas
+
+1. Abrir la carpeta del ejercicio deseado en Visual Studio Code.
+2. Compilar los archivos Java correspondientes.
+3. Ejecutar la clase Main.java.
+4. Probar las diferentes opciones disponibles según el ejercicio.
+
+---
+
+## Conclusión
+
+Con esta práctica pude reforzar los conocimientos sobre programación concurrente, manejo de excepciones y trabajo con archivos en Java. Estos temas son importantes porque permiten desarrollar aplicaciones más organizadas, seguras y capaces de manejar diferentes situaciones que pueden ocurrir durante su ejecución.
